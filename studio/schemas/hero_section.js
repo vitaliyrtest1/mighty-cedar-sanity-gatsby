@@ -171,6 +171,12 @@ export default {
             "validation": Rule => Rule.integer()
         },
         {
+            "type": "number",
+            "name": "floatNumber",
+            "title": "Float number",
+            "description": "An integer between 0 and 100. A lower value makes the image more transparent"
+        },
+        {
             "type": "string",
             "name": "background_image_size",
             "title": "Background image size",
